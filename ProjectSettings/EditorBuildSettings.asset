@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/ArchVizPRO_Interior_Vol.8_URP/3D SCENE/AVP8_URP_MetaQuest.unity
-    guid: 5da8fe468ffc7e7458e9757a0f098d72
   - enabled: 1
-    path: Assets/CRISFE/04 SCENES/Test_Iluminacion.unity
-    guid: 44493a0a5f2c59f48bfef5273a15c421
+    path: Assets/CRISFE/04 SCENES/INICIAL-SIERRA/S_InicialSierra-Interaccion.unity
+    guid: de67fc053878f1e42890ca48a4d6715c
+  - enabled: 1
+    path: Assets/CRISFE/04 SCENES/INICIAL-SIERRA/S_InicialSierra-Iluminacion.unity
+    guid: 4f3786ff62147fd4898d87e4eac3ad4a
+  - enabled: 1
+    path: Assets/CRISFE/04 SCENES/INICIAL-SIERRA/S_InicialSierra-Geo.unity
+    guid: 916fd1eff6681a94e87b36dbd3929904
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 165e12f3032f80449aba76828d1d94ec, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2747fd4a081024142a3bf4cd6213537d, type: 2}

@@ -159,7 +159,7 @@ Material:
     - _Power: 1
     - _PowerFresnel: 1
     - _PowerFresnelBC: 1
-    - _PowerTint: 0.17
+    - _PowerTint: 0.593
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ROUGHNESSMAP: 1

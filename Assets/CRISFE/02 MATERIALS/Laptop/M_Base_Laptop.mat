@@ -20,13 +20,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tela_Muebles
+  m_Name: M_Base_Laptop
   m_Shader: {fileID: -6465566751694194690, guid: c7a31a031552d0e428d982093bd6606c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _COLORMAP
-  - _MAPPING1_PLANAR
+  - _MAPPING1_UV
+  - _METALLICMAP
   - _ROUGHNESSMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -50,7 +51,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: aa5c88b8aabcdfa448be67459524c741, type: 3}
+        m_Texture: {fileID: 2800000, guid: 68079391126e7db48a5a4bddae8c747b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -78,7 +79,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f21342cd5f48c4a40b3f5ec8cbb806fa, type: 3}
+        m_Texture: {fileID: 2800000, guid: c08944856e0d04a4291ec4c4322cabb5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -94,7 +95,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _R_M_AO:
-        m_Texture: {fileID: 2800000, guid: be52a2c7e71f24245a20e70abedd8e8e, type: 3}
+        m_Texture: {fileID: 2800000, guid: e1c4525ad05eff4499c1d5489d073a04, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SSSMap:
@@ -129,14 +130,14 @@ Material:
     - _BackFaceTex_1: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _Brillo: 2.56
-    - _BrilloRoughness: 0.88
+    - _Brillo: 1
+    - _BrilloRoughness: 1
     - _BumpScale: 1
     - _COLORMAP: 1
     - _CastShadows: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Contraste: 0.64
+    - _Contraste: 1
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -154,12 +155,12 @@ Material:
     - _FuzzyBias: 0
     - _FuzzyScale: 1
     - _GlossMapScale: 0
-    - _Glossiness: 0.193
+    - _Glossiness: 0.09
     - _GlossyReflections: 0
     - _HUE: 0
     - _InvertRoughness: 0
-    - _MAPPING1: 1
-    - _METALLICMAP: 0
+    - _MAPPING1: 0
+    - _METALLICMAP: 1
     - _MaxRoughness: 1
     - _Metallic: 0
     - _MetallicBrillo: 1
@@ -211,7 +212,7 @@ Material:
     - _BackFaceColor: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BlancosYNegros: {r: 0, g: 1, b: 0, a: 0}
-    - _Color: {r: 0.291, g: 0.28871858, b: 0.286926, a: 1}
+    - _Color: {r: 0.936, g: 0.936, b: 0.936, a: 1}
     - _ColorClamp: {r: 0, g: 1, b: 0, a: 0}
     - _ColorFuzzi: {r: 1, g: 1, b: 1, a: 0}
     - _ColorSSS: {r: 0, g: 0, b: 0, a: 0}
@@ -224,7 +225,7 @@ Material:
     - _SSS_Tint: {r: 0.8509804, g: 0.5803921, b: 0.38039213, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
-    - _Tile: {r: 3, g: 3, b: 3, a: 0}
+    - _Tile: {r: 1, g: 1, b: 1, a: 0}
     - _Tint: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

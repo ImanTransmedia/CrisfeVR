@@ -139,7 +139,7 @@ Material:
     - _FuzzyBias: 0
     - _FuzzyScale: 1
     - _GlossMapScale: 0
-    - _Glossiness: 0.85
+    - _Glossiness: 0.857
     - _GlossyReflections: 0
     - _HUE: 0
     - _InvertRoughness: 0
@@ -196,7 +196,7 @@ Material:
     - _BackFaceColor: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BlancosYNegros: {r: 0, g: 1, b: 0, a: 0}
-    - _Color: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+    - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _ColorClamp: {r: 0, g: 1, b: 0, a: 0}
     - _ColorFuzzi: {r: 1, g: 1, b: 1, a: 0}
     - _ColorSSS: {r: 0, g: 0, b: 0, a: 0}

@@ -52,10 +52,10 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClipThreshold: 0.26
-    - _Cutoff: 0.147
+    - _Cutoff: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ShadowIntensity: 1
+    - _ShadowIntensity: 1.1
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1

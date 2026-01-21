@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-167522104424761273
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,12 +20,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Pizarra
+  m_Name: M_Versa_Sand
   m_Shader: {fileID: -6465566751694194690, guid: c7a31a031552d0e428d982093bd6606c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _MAPPING1_UV
+  - _COLORMAP
+  - _MAPPING1_TRIPLANAR
+  - _ROUGHNESSMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -35,7 +50,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 6c516cf282cfa6547b17e5a19fedf324, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -59,11 +74,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HueMask:
-        m_Texture: {fileID: 2800000, guid: 66d8f706d6fdbce419461185755defb5, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 0cac39d0a9bc5e040b4680b6c3240c9b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -79,7 +94,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _R_M_AO:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: e5f5ec369c0e55d488685c30ed7c88f6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SSSMap:
@@ -117,7 +132,7 @@ Material:
     - _Brillo: 1
     - _BrilloRoughness: 1
     - _BumpScale: 1
-    - _COLORMAP: 0
+    - _COLORMAP: 1
     - _CastShadows: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -133,20 +148,20 @@ Material:
     - _EdgePower: 2.5
     - _EnvironmentReflections: 1
     - _FABRIC: 0
-    - _FresnelReflection: 0
+    - _FresnelReflection: 1
     - _Fuzzi: 1
     - _FuzziPower: 2
     - _FuzzyBias: 0
     - _FuzzyScale: 1
     - _GlossMapScale: 0
-    - _Glossiness: 0.857
+    - _Glossiness: 0.2
     - _GlossyReflections: 0
     - _HUE: 0
     - _InvertRoughness: 0
-    - _MAPPING1: 0
+    - _MAPPING1: 2
     - _METALLICMAP: 0
-    - _MaxRoughness: 1
-    - _Metallic: 0.4
+    - _MaxRoughness: 0.5
+    - _Metallic: 0
     - _MetallicBrillo: 1
     - _MetallicContraste: 1
     - _NoiseScale: 0
@@ -160,7 +175,7 @@ Material:
     - _PowerTint: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ROUGHNESSMAP: 0
+    - _ROUGHNESSMAP: 1
     - _RandomHUE: 0
     - _ReceiveShadows: 1
     - _Rotation: 0
@@ -179,10 +194,10 @@ Material:
     - _Surface: 0
     - _Threshold: 0
     - _UseAlphaMap: 0
-    - _UseAoMap: 0
+    - _UseAoMap: 1
     - _UseDither: 0
     - _UseEmissiveMap: 0
-    - _UseNormalMap: 0
+    - _UseNormalMap: 1
     - _UseSSS: 0
     - _Wind: 0
     - _WindNoiseScale: 0.2
@@ -196,7 +211,7 @@ Material:
     - _BackFaceColor: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BlancosYNegros: {r: 0, g: 1, b: 0, a: 0}
-    - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    - _Color: {r: 0.79607844, g: 0.6784314, b: 0.53333336, a: 1}
     - _ColorClamp: {r: 0, g: 1, b: 0, a: 0}
     - _ColorFuzzi: {r: 1, g: 1, b: 1, a: 0}
     - _ColorSSS: {r: 0, g: 0, b: 0, a: 0}
@@ -205,24 +220,11 @@ Material:
     - _EdgeTilling: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _M_B_N: {r: 0, g: 1, b: 0, a: 0}
-    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset: {r: 0, g: -0.18, b: 0, a: 0}
     - _SSS_Tint: {r: 0.8509804, g: 0.5803921, b: 0.38039213, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
-    - _Tile: {r: 1, g: 1, b: 1, a: 0}
+    - _Tile: {r: 0.7, g: 0.7, b: 0.7, a: 0}
     - _Tint: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &9075099927093538119
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
-  version: 10

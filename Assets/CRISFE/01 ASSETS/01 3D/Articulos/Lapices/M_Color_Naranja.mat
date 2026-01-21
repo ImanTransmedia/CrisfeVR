@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Vaso
+  m_Name: M_Color_Naranja
   m_Shader: {fileID: -6465566751694194690, guid: c7a31a031552d0e428d982093bd6606c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -50,7 +50,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 5dcef8f95627d08448839616aa2e0c89, type: 3}
+        m_Texture: {fileID: 2800000, guid: b37615b00ffb1744f95fc960f0f3198e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -78,7 +78,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 79e46fa8cfeacdf46813407aea37d7b4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7268c7b587a91684cbf96bf8de60f227, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -94,7 +94,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _R_M_AO:
-        m_Texture: {fileID: 2800000, guid: ac338e2466f8ff54596dcb2841212e9e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 534e6b7ef6bf7fb4abb7adb9f9ead6d1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SSSMap:
@@ -172,7 +172,7 @@ Material:
     - _Power: 1
     - _PowerFresnel: 1
     - _PowerFresnelBC: 1
-    - _PowerTint: 0.75
+    - _PowerTint: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ROUGHNESSMAP: 1
@@ -194,7 +194,7 @@ Material:
     - _Surface: 0
     - _Threshold: 0
     - _UseAlphaMap: 0
-    - _UseAoMap: 1
+    - _UseAoMap: 0
     - _UseDither: 0
     - _UseEmissiveMap: 0
     - _UseNormalMap: 1
@@ -225,6 +225,6 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
     - _Tile: {r: 1, g: 1, b: 1, a: 0}
-    - _Tint: {r: 0.8113208, g: 0.28702387, b: 0.28702387, a: 0}
+    - _Tint: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

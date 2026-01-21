@@ -35,7 +35,6 @@ Material:
     RenderType: Opaque
   disabledShaderPasses:
   - MOTIONVECTORS
-  - XRMotionVectors
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3

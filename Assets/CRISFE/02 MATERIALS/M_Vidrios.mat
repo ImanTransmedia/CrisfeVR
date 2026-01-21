@@ -38,7 +38,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: d5cf8027043d1fe4fa0a3ff2369199bc, type: 3}
+        m_Texture: {fileID: 2800000, guid: 49ad38cefc9f5a146b2131c137c69572, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -154,7 +154,7 @@ Material:
     - _MetallicContraste: 1
     - _NoiseScale: 0
     - _NormalDetails: 0
-    - _NormalStrenght: 0.02
+    - _NormalStrenght: 0.15
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _Power: 1
@@ -212,7 +212,7 @@ Material:
     - _SSS_Tint: {r: 0.8509804, g: 0.5803921, b: 0.38039213, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
-    - _Tile: {r: 0.1, g: 0.1, b: 0.1, a: 0}
+    - _Tile: {r: 0.56, g: 1, b: 0.1, a: 0}
     - _Tint: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -20,11 +20,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Paredes_Sierra
+  m_Name: M_Versa_Sand
   m_Shader: {fileID: -6465566751694194690, guid: c7a31a031552d0e428d982093bd6606c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _COLORMAP
   - _MAPPING1_TRIPLANAR
   - _ROUGHNESSMAP
   m_InvalidKeywords: []
@@ -73,11 +74,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HueMask:
-        m_Texture: {fileID: 2800000, guid: 66d8f706d6fdbce419461185755defb5, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 0cac39d0a9bc5e040b4680b6c3240c9b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -129,9 +130,9 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _Brillo: 1
-    - _BrilloRoughness: 3.62
+    - _BrilloRoughness: 1
     - _BumpScale: 1
-    - _COLORMAP: 0
+    - _COLORMAP: 1
     - _CastShadows: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -147,7 +148,7 @@ Material:
     - _EdgePower: 2.5
     - _EnvironmentReflections: 1
     - _FABRIC: 0
-    - _FresnelReflection: 0
+    - _FresnelReflection: 1
     - _Fuzzi: 1
     - _FuzziPower: 2
     - _FuzzyBias: 0
@@ -159,7 +160,7 @@ Material:
     - _InvertRoughness: 0
     - _MAPPING1: 2
     - _METALLICMAP: 0
-    - _MaxRoughness: 1
+    - _MaxRoughness: 0.5
     - _Metallic: 0
     - _MetallicBrillo: 1
     - _MetallicContraste: 1
@@ -219,11 +220,11 @@ Material:
     - _EdgeTilling: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _M_B_N: {r: 0, g: 1, b: 0, a: 0}
-    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset: {r: 0, g: -0.18, b: 0, a: 0}
     - _SSS_Tint: {r: 0.8509804, g: 0.5803921, b: 0.38039213, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
-    - _Tile: {r: 2, g: 2, b: 2, a: 0}
+    - _Tile: {r: 0.7, g: 0.7, b: 0.7, a: 0}
     - _Tint: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

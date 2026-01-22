@@ -150,10 +150,10 @@ Material:
     - _EnvironmentReflections: 1
     - _FABRIC: 1
     - _FresnelReflection: 0
-    - _Fuzzi: 3.8
-    - _FuzziPower: 0.96
-    - _FuzzyBias: -0.13
-    - _FuzzyScale: 0.86
+    - _Fuzzi: 1.78
+    - _FuzziPower: 0.46
+    - _FuzzyBias: 0.14
+    - _FuzzyScale: 0.22
     - _GlossMapScale: 0
     - _Glossiness: 0.193
     - _GlossyReflections: 0

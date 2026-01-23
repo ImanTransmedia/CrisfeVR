@@ -37,7 +37,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: d5cf8027043d1fe4fa0a3ff2369199bc, type: 3}
+        m_Texture: {fileID: 2800000, guid: c4293b39a8e67aa48aadd1abfe995d0f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -144,7 +144,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _HUE: 356
-    - _InvertRoughness: 0
+    - _InvertRoughness: 1
     - _MAPPING1: 1
     - _METALLICMAP: 0
     - _MaxRoughness: 1
@@ -153,7 +153,7 @@ Material:
     - _MetallicContraste: 1
     - _NoiseScale: 0
     - _NormalDetails: 0
-    - _NormalStrenght: 1
+    - _NormalStrenght: 0.4
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _Power: 1

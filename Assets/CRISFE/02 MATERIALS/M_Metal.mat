@@ -159,7 +159,7 @@ Material:
     - _MAPPING1: 0
     - _METALLICMAP: 0
     - _MaxRoughness: 1
-    - _Metallic: 1
+    - _Metallic: 0.5
     - _MetallicBrillo: 1
     - _MetallicContraste: 1
     - _NoiseScale: 0

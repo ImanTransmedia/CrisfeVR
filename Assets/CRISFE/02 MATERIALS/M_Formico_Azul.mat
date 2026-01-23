@@ -209,7 +209,7 @@ Material:
     - _BackFaceColor: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BlancosYNegros: {r: 0, g: 1, b: 0, a: 0}
-    - _Color: {r: 0.7843138, g: 0.90196085, b: 0.9607844, a: 1}
+    - _Color: {r: 0.49803925, g: 0.627451, b: 0.7843138, a: 1}
     - _ColorClamp: {r: 0, g: 1, b: 0, a: 0}
     - _ColorFuzzi: {r: 1, g: 1, b: 1, a: 0}
     - _ColorSSS: {r: 0, g: 0, b: 0, a: 0}

@@ -178,10 +178,10 @@ Material:
     - _ReceiveShadows: 1
     - _Rotation: 0
     - _RoughnessContrast: 1
-    - _SSS_Direct: 0.5
-    - _SSS_Indirect: 0.5
+    - _SSS_Direct: 0
+    - _SSS_Indirect: 0
     - _SSS_Intensity: 0
-    - _SSS_ShadowStrenght: 0.5
+    - _SSS_ShadowStrenght: 0
     - _Saturacion: 1
     - _Seed: 0
     - _Smoothness: 0.5
@@ -209,7 +209,7 @@ Material:
     - _BackFaceColor: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BlancosYNegros: {r: 0, g: 1, b: 0, a: 0}
-    - _Color: {r: 0.6509804, g: 0.47058827, b: 0.16862746, a: 1}
+    - _Color: {r: 0.945098, g: 0.5701266, b: 0.3118823, a: 1}
     - _ColorClamp: {r: 0, g: 1, b: 0, a: 0}
     - _ColorFuzzi: {r: 1, g: 1, b: 1, a: 0}
     - _ColorSSS: {r: 0, g: 0, b: 0, a: 0}

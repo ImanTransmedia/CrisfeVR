@@ -159,7 +159,7 @@ Material:
     - _Power: 1
     - _PowerFresnel: 1
     - _PowerFresnelBC: 1
-    - _PowerTint: 0
+    - _PowerTint: 0.743
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ROUGHNESSMAP: 1
@@ -212,7 +212,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
     - _Tile: {r: 3, g: 3, b: 3, a: 0}
-    - _Tint: {r: 1, g: 0.5510912, b: 0.28627455, a: 0}
+    - _Tint: {r: 0.9245283, g: 0.8730926, b: 0.745728, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &6509480220115351202

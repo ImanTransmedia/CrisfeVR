@@ -25,7 +25,9 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _MAPPING1_TRIPLANAR
+  - _COLORMAP
+  - _MAPPING1_PLANAR
+  - _METALLICMAP
   - _ROUGHNESSMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -49,7 +51,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 6c516cf282cfa6547b17e5a19fedf324, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3c90fa0a911686b4bb6bfc68b143d811, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -77,7 +79,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: a6e7a6022c9708f4885970ca00ccc112, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -93,7 +95,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _R_M_AO:
-        m_Texture: {fileID: 2800000, guid: e5f5ec369c0e55d488685c30ed7c88f6, type: 3}
+        m_Texture: {fileID: 2800000, guid: bd446947b8408dd49b882ae336067e02, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SSSMap:
@@ -129,9 +131,9 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _Brillo: 1
-    - _BrilloRoughness: 3.62
+    - _BrilloRoughness: 0.8
     - _BumpScale: 1
-    - _COLORMAP: 0
+    - _COLORMAP: 1
     - _CastShadows: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -156,22 +158,22 @@ Material:
     - _Glossiness: 0.2
     - _GlossyReflections: 0
     - _HUE: 0
-    - _InvertRoughness: 0
-    - _MAPPING1: 2
-    - _METALLICMAP: 0
+    - _InvertRoughness: 1
+    - _MAPPING1: 1
+    - _METALLICMAP: 1
     - _MaxRoughness: 1
     - _Metallic: 0
     - _MetallicBrillo: 1
     - _MetallicContraste: 1
     - _NoiseScale: 0
-    - _NormalDetails: 0
-    - _NormalStrenght: 1
+    - _NormalDetails: 1
+    - _NormalStrenght: 2
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _Power: 1
     - _PowerFresnel: 1
     - _PowerFresnelBC: 1
-    - _PowerTint: 0
+    - _PowerTint: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ROUGHNESSMAP: 1
@@ -223,7 +225,7 @@ Material:
     - _SSS_Tint: {r: 0.8509804, g: 0.5803921, b: 0.38039213, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
-    - _Tile: {r: 2, g: 2, b: 2, a: 0}
-    - _Tint: {r: 0, g: 0, b: 0, a: 0}
+    - _Tile: {r: 20, g: 20, b: 20, a: 0}
+    - _Tint: {r: 0.7960785, g: 0.6784314, b: 0.53333336, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -25,7 +25,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _MAPPING1_UV
+  - _MAPPING1_PLANAR
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 55daa7d019639c94c8c8c4e87b0ad0d9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -76,7 +76,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 15d254d6858566b458349c4e57381f7d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -92,7 +92,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _R_M_AO:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 953f56df9e5e0da4f95e5b7118b3a851, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SSSMap:
@@ -156,7 +156,7 @@ Material:
     - _GlossyReflections: 0
     - _HUE: 0
     - _InvertRoughness: 0
-    - _MAPPING1: 0
+    - _MAPPING1: 1
     - _METALLICMAP: 0
     - _MaxRoughness: 1
     - _Metallic: 0
@@ -195,7 +195,7 @@ Material:
     - _UseAoMap: 0
     - _UseDither: 0
     - _UseEmissiveMap: 0
-    - _UseNormalMap: 0
+    - _UseNormalMap: 1
     - _UseSSS: 0
     - _Wind: 0
     - _WindNoiseScale: 0.2
@@ -223,6 +223,6 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
     - _Tile: {r: 1, g: 1, b: 1, a: 0}
-    - _Tint: {r: 0, g: 0, b: 0, a: 0}
+    - _Tint: {r: 0.34117648, g: 0.41960788, b: 0.42352945, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

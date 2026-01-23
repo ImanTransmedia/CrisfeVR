@@ -120,7 +120,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AOBrillo: 1
+    - _AOBrillo: 0.9
     - _AOContraste: 1
     - _AddPrecomputedVelocity: 0
     - _Alpha: 1
@@ -131,7 +131,7 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _Brillo: 6
-    - _BrilloRoughness: 0.88
+    - _BrilloRoughness: 0.13
     - _BumpScale: 1
     - _COLORMAP: 1
     - _CastShadows: 1

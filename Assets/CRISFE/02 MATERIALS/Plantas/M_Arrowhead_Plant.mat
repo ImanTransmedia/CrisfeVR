@@ -25,6 +25,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _ALPHATEST_ON
   - _COLORMAP
   - _MAPPING1_UV
   - _ROUGHNESSMAP
@@ -32,9 +33,9 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2450
   stringTagMap:
-    RenderType: Opaque
+    RenderType: TransparentCutout
   disabledShaderPasses:
   - MOTIONVECTORS
   m_LockedProperties: 
@@ -122,10 +123,10 @@ Material:
     - _AOBrillo: 1
     - _AOContraste: 1
     - _AddPrecomputedVelocity: 0
-    - _Alpha: 1
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _BackFace: 1
+    - _Alpha: 0
+    - _AlphaClip: 1
+    - _AlphaToMask: 1
+    - _BackFace: 0
     - _BackFaceTex_1: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
@@ -137,7 +138,7 @@ Material:
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Contraste: 1
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
@@ -193,9 +194,9 @@ Material:
     - _SrcBlendAlpha: 1
     - _Surface: 0
     - _Threshold: 0
-    - _UseAlphaMap: 0
+    - _UseAlphaMap: 1
     - _UseAoMap: 1
-    - _UseDither: 0
+    - _UseDither: 1
     - _UseEmissiveMap: 0
     - _UseNormalMap: 1
     - _UseSSS: 0

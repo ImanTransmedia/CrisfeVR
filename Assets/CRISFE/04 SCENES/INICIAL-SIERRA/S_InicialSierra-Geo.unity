@@ -492,6 +492,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[2]'
       value: 
       objectReference: {fileID: 2100000, guid: 5cbfe0a830ec89f4298a1d28c61724f1, type: 2}
+    - target: {fileID: -7511558181221131132, guid: a1687cd7c135cec4aa5f1a67db538d21, type: 3}
+      propertyPath: 'm_Materials.Array.data[3]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 134e52e9cf45c4940b186b9fe4a9077b, type: 2}
     - target: {fileID: 919132149155446097, guid: a1687cd7c135cec4aa5f1a67db538d21, type: 3}
       propertyPath: m_Name
       value: Grafico_Sierra
@@ -3654,6 +3658,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: 8d15e66fdf0832d469f162af3fe24c8d, type: 2}
+    - target: {fileID: 3381324768928705643, guid: 9beba0c435daad545a9312d5aa16968d, type: 3}
+      propertyPath: 'm_Materials.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 134e52e9cf45c4940b186b9fe4a9077b, type: 2}
     - target: {fileID: 3480316896868530733, guid: 9beba0c435daad545a9312d5aa16968d, type: 3}
       propertyPath: m_Name
       value: Mueble_M29

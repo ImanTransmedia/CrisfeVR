@@ -584,7 +584,7 @@ ReflectionProbe:
   m_TimeSlicingMode: 0
   m_Resolution: 256
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 7.2515726, y: 4.33632, z: 6.93776}
+  m_BoxSize: {x: 7.2515726, y: 4.33632, z: 6.534718}
   m_BoxOffset: {x: 0, y: 0, z: 0}
   m_NearClip: 0.3
   m_FarClip: 1000

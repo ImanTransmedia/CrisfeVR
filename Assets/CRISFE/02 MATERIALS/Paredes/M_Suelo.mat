@@ -117,7 +117,7 @@ Material:
     - _BackFaceTex_1: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _Brillo: 1
+    - _Brillo: 1.51
     - _BrilloRoughness: 1
     - _BumpScale: 1
     - _COLORMAP: 1
@@ -160,7 +160,7 @@ Material:
     - _Power: 1
     - _PowerFresnel: 1
     - _PowerFresnelBC: 1
-    - _PowerTint: 0.352
+    - _PowerTint: 0.341
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ROUGHNESSMAP: 1

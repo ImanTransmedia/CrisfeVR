@@ -129,7 +129,7 @@ Material:
     - _Alpha: 1
     - _AlphaClip: 1
     - _AlphaToMask: 0
-    - _BackFace: 1
+    - _BackFace: 0
     - _BackFaceTex_1: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1

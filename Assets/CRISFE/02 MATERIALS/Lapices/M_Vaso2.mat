@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Vaso
+  m_Name: M_Vaso2
   m_Shader: {fileID: -6465566751694194690, guid: c7a31a031552d0e428d982093bd6606c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -171,7 +171,7 @@ Material:
     - _Power: 1
     - _PowerFresnel: 1
     - _PowerFresnelBC: 1
-    - _PowerTint: 0.929
+    - _PowerTint: 0.954
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ROUGHNESSMAP: 0
@@ -224,6 +224,6 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
     - _Tile: {r: 1, g: 1, b: 1, a: 0}
-    - _Tint: {r: 1, g: 0, b: 0, a: 0}
+    - _Tint: {r: 0.9056604, g: 0, b: 0.89843637, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -153,8 +153,8 @@ Material:
     - _MetallicBrillo: 1
     - _MetallicContraste: 1
     - _NoiseScale: 0
-    - _NormalDetails: 0
-    - _NormalStrenght: 0.1
+    - _NormalDetails: 0.1
+    - _NormalStrenght: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _Power: 1
@@ -212,7 +212,7 @@ Material:
     - _SSS_Tint: {r: 0.8509804, g: 0.5803921, b: 0.38039213, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
-    - _Tile: {r: 100, g: 10, b: 100, a: 0}
+    - _Tile: {r: 0.5, g: 0.5, b: 0.5, a: 0}
     - _Tint: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

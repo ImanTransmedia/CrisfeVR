@@ -27,7 +27,6 @@ Material:
   m_ValidKeywords:
   - _COLORMAP
   - _MAPPING1_UV
-  - _ROUGHNESSMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -154,14 +153,14 @@ Material:
     - _FuzzyBias: 0
     - _FuzzyScale: 1
     - _GlossMapScale: 0
-    - _Glossiness: 0
+    - _Glossiness: 0.331
     - _GlossyReflections: 0
     - _HUE: 0
     - _InvertRoughness: 0
     - _MAPPING1: 0
     - _METALLICMAP: 0
     - _MaxRoughness: 1
-    - _Metallic: 0.4
+    - _Metallic: 0
     - _MetallicBrillo: 1
     - _MetallicContraste: 1
     - _NoiseScale: 0
@@ -175,7 +174,7 @@ Material:
     - _PowerTint: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ROUGHNESSMAP: 1
+    - _ROUGHNESSMAP: 0
     - _RandomHUE: 0
     - _ReceiveShadows: 1
     - _Rotation: 0

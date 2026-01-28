@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9130100008684494344
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,13 +20,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Madera_Blanca
+  m_Name: M_Tiles
   m_Shader: {fileID: -6465566751694194690, guid: c7a31a031552d0e428d982093bd6606c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _COLORMAP
-  - _MAPPING1_PLANAR
+  - _MAPPING1_TRIPLANAR
   - _ROUGHNESSMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -37,7 +50,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: d5cf8027043d1fe4fa0a3ff2369199bc, type: 3}
+        m_Texture: {fileID: 2800000, guid: 28d308d93c2bbc948a8452d7202fc3e6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -61,11 +74,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HueMask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 66d8f706d6fdbce419461185755defb5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 6e5c227d57c767d45b56fd4035e5de62, type: 3}
+        m_Texture: {fileID: 2800000, guid: 947938fe613fd084782350b06b044576, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -81,7 +94,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _R_M_AO:
-        m_Texture: {fileID: 2800000, guid: 6bf03288786003c468a96b6ab67d0aff, type: 3}
+        m_Texture: {fileID: 2800000, guid: 851ac4bf2cc8a804e8a3f1dfcb607819, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SSSMap:
@@ -106,8 +119,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AOBrillo: 1.74
-    - _AOContraste: 0.81
+    - _AOBrillo: 1
+    - _AOContraste: 1
     - _AddPrecomputedVelocity: 0
     - _Alpha: 1
     - _AlphaClip: 0
@@ -116,14 +129,14 @@ Material:
     - _BackFaceTex_1: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _Brillo: 5.5
+    - _Brillo: 1.22
     - _BrilloRoughness: 1
     - _BumpScale: 1
     - _COLORMAP: 1
     - _CastShadows: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Contraste: 1.03
+    - _Contraste: 1.17
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -145,10 +158,10 @@ Material:
     - _GlossyReflections: 0
     - _HUE: 0
     - _InvertRoughness: 0
-    - _MAPPING1: 1
+    - _MAPPING1: 2
     - _METALLICMAP: 0
     - _MaxRoughness: 1
-    - _Metallic: 0
+    - _Metallic: 0.4
     - _MetallicBrillo: 1
     - _MetallicContraste: 1
     - _NoiseScale: 0
@@ -165,13 +178,13 @@ Material:
     - _ROUGHNESSMAP: 1
     - _RandomHUE: 0
     - _ReceiveShadows: 1
-    - _Rotation: 0
+    - _Rotation: 44.9
     - _RoughnessContrast: 1
     - _SSS_Direct: 0.5
     - _SSS_Indirect: 0.5
     - _SSS_Intensity: 0
     - _SSS_ShadowStrenght: 0.5
-    - _Saturacion: 0.05
+    - _Saturacion: 0.02
     - _Seed: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
@@ -198,7 +211,7 @@ Material:
     - _BackFaceColor: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BlancosYNegros: {r: 0, g: 1, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.936, g: 0.936, b: 0.936, a: 1}
     - _ColorClamp: {r: 0, g: 1, b: 0, a: 0}
     - _ColorFuzzi: {r: 1, g: 1, b: 1, a: 0}
     - _ColorSSS: {r: 0, g: 0, b: 0, a: 0}
@@ -207,24 +220,11 @@ Material:
     - _EdgeTilling: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _M_B_N: {r: 0, g: 1, b: 0, a: 0}
-    - _Offset: {r: 0.01, g: 0.52, b: 0, a: 0}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _SSS_Tint: {r: 0.8509804, g: 0.5803921, b: 0.38039213, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
-    - _Tile: {r: 3, g: 3, b: 3, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
+    - _Tile: {r: 0.46, g: 1, b: 0.47, a: 0}
+    - _Tint: {r: 0.9528302, g: 0.9135357, b: 0.876424, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &6509480220115351202
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
-  version: 10

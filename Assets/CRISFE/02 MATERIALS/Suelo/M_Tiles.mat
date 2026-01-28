@@ -161,12 +161,12 @@ Material:
     - _MAPPING1: 2
     - _METALLICMAP: 0
     - _MaxRoughness: 1
-    - _Metallic: 0.4
+    - _Metallic: 0
     - _MetallicBrillo: 1
     - _MetallicContraste: 1
     - _NoiseScale: 0
     - _NormalDetails: 0
-    - _NormalStrenght: 1
+    - _NormalStrenght: 0.42
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _Power: 1

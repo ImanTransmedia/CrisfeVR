@@ -118,14 +118,14 @@ Material:
     - _BackFaceTex_1: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _Brillo: 1.75
+    - _Brillo: 1
     - _BrilloRoughness: 0.48
     - _BumpScale: 1
     - _COLORMAP: 1
     - _CastShadows: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Contraste: 0.28
+    - _Contraste: 1
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -145,7 +145,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _HUE: 0
+    - _HUE: 108
     - _InvertRoughness: 0
     - _MAPPING1: 1
     - _METALLICMAP: 1
@@ -173,7 +173,7 @@ Material:
     - _SSS_Indirect: 0.5
     - _SSS_Intensity: 0
     - _SSS_ShadowStrenght: 0.5
-    - _Saturacion: 0.25
+    - _Saturacion: 1
     - _Seed: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
@@ -214,7 +214,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
     - _Tile: {r: 12.5, g: 12.5, b: 2, a: 0}
-    - _Tint: {r: 0.16981131, g: 0.16981131, b: 0.16981131, a: 1}
+    - _Tint: {r: 0.79215693, g: 0.82745105, b: 0.8000001, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &4150079419478591636

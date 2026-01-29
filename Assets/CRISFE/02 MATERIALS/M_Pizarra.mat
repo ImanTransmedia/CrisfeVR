@@ -139,14 +139,14 @@ Material:
     - _FuzzyBias: 0
     - _FuzzyScale: 1
     - _GlossMapScale: 0
-    - _Glossiness: 0.857
+    - _Glossiness: 0.902
     - _GlossyReflections: 0
     - _HUE: 0
     - _InvertRoughness: 0
     - _MAPPING1: 0
     - _METALLICMAP: 0
     - _MaxRoughness: 1
-    - _Metallic: 0.4
+    - _Metallic: 0
     - _MetallicBrillo: 1
     - _MetallicContraste: 1
     - _NoiseScale: 0
@@ -173,6 +173,7 @@ Material:
     - _Seed: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
+    - _Specular: 0.5
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1

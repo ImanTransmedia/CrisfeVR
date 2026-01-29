@@ -14,6 +14,7 @@ Material:
   m_ValidKeywords:
   - _COLORMAP
   - _MAPPING1_PLANAR
+  - _ROUGHNESSMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -116,7 +117,7 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _Brillo: 7
-    - _BrilloRoughness: 1
+    - _BrilloRoughness: 2.32
     - _BumpScale: 1
     - _COLORMAP: 1
     - _CastShadows: 1
@@ -140,7 +141,7 @@ Material:
     - _FuzzyBias: 0
     - _FuzzyScale: 1
     - _GlossMapScale: 0
-    - _Glossiness: 0
+    - _Glossiness: 0.192
     - _GlossyReflections: 0
     - _HUE: 0
     - _InvertRoughness: 0
@@ -161,7 +162,7 @@ Material:
     - _PowerTint: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ROUGHNESSMAP: 0
+    - _ROUGHNESSMAP: 1
     - _RandomHUE: 0
     - _ReceiveShadows: 1
     - _Rotation: 0
@@ -174,6 +175,7 @@ Material:
     - _Seed: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
+    - _Specular: 0.5
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
@@ -196,7 +198,7 @@ Material:
     - _AOClamp: {r: 0.61, g: 1, b: 0, a: 0}
     - _BackFaceColor: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BlancosYNegros: {r: 0, g: 1, b: 0, a: 0}
+    - _BlancosYNegros: {r: 0.1, g: 0.6, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorClamp: {r: 0, g: 1, b: 0, a: 0}
     - _ColorFuzzi: {r: 1, g: 1, b: 1, a: 0}

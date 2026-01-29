@@ -131,7 +131,7 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _Brillo: 6
-    - _BrilloRoughness: 0.13
+    - _BrilloRoughness: 0.34
     - _BumpScale: 1
     - _COLORMAP: 1
     - _CastShadows: 1
@@ -151,9 +151,9 @@ Material:
     - _FABRIC: 1
     - _FresnelReflection: 0
     - _Fuzzi: 1.78
-    - _FuzziPower: 0.46
+    - _FuzziPower: 1.17
     - _FuzzyBias: 0.14
-    - _FuzzyScale: 0.22
+    - _FuzzyScale: 0.39
     - _GlossMapScale: 0
     - _Glossiness: 0.193
     - _GlossyReflections: 0
@@ -189,6 +189,7 @@ Material:
     - _Seed: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
+    - _Specular: 0.5
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
@@ -214,7 +215,7 @@ Material:
     - _BlancosYNegros: {r: 0, g: 1, b: 0, a: 0}
     - _Color: {r: 0.291, g: 0.28871858, b: 0.286926, a: 1}
     - _ColorClamp: {r: 0, g: 1, b: 0, a: 0}
-    - _ColorFuzzi: {r: 1, g: 1, b: 1, a: 0}
+    - _ColorFuzzi: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 0}
     - _ColorSSS: {r: 0, g: 0, b: 0, a: 0}
     - _Direction: {r: 0.3, g: 1, b: 0, a: 0}
     - _EdgeOffset: {r: 0, g: 0, b: 0, a: 0}
@@ -224,7 +225,7 @@ Material:
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _SSS_Tint: {r: 0.8509804, g: 0.5803921, b: 0.38039213, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _SpecularColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
     - _Tile: {r: 4, g: 4, b: 4, a: 0}
     - _Tint: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

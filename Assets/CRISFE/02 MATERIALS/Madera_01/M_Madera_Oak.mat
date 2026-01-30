@@ -83,7 +83,7 @@ Material:
     - _BackFaceTex_1: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _Brillo: 1
+    - _Brillo: 1.54
     - _BrilloRoughness: 4.18
     - _COLORMAP: 1
     - _CastShadows: 1
@@ -101,7 +101,7 @@ Material:
     - _FuzzyBias: 0
     - _FuzzyScale: 1
     - _Glossiness: 0.5
-    - _HUE: 0
+    - _HUE: 358
     - _InvertRoughness: 0
     - _MAPPING1: 2
     - _METALLICMAP: 0
@@ -115,7 +115,7 @@ Material:
     - _Power: 1
     - _PowerFresnel: 1
     - _PowerFresnelBC: 1
-    - _PowerTint: 0
+    - _PowerTint: 0.554
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ROUGHNESSMAP: 1
@@ -164,7 +164,7 @@ Material:
     - _SSS_Tint: {r: 0.8509804, g: 0.5803921, b: 0.38039213, a: 0}
     - _SpecularColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
     - _Tile: {r: 0.5, g: 0.5, b: 0.5, a: 0}
-    - _Tint: {r: 0, g: 0, b: 0, a: 0}
+    - _Tint: {r: 0.92549026, g: 0.6666667, b: 0.4784314, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &6509480220115351202

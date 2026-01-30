@@ -500,6 +500,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 160646377801211249, guid: 5573f21dde4aae24ea5bc7c409b2dd8f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8bb67bdd79a49ac4db15271a74595020, type: 2}
     - target: {fileID: 1061638758765693989, guid: 5573f21dde4aae24ea5bc7c409b2dd8f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -763,6 +767,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 3670500428709420336, guid: 3537b5d895049fb48b9fb8a517c8090d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3ecda961feb9e5e4988174bd914018d0, type: 2}
     - target: {fileID: 5998011970188722141, guid: 3537b5d895049fb48b9fb8a517c8090d, type: 3}
       propertyPath: m_Name
       value: SM_Wall_Iris
@@ -906,7 +914,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9dbe91721b4dce34ab215aeb2da82e2e, type: 2}
+  - {fileID: 2100000, guid: 3ecda961feb9e5e4988174bd914018d0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1424,7 +1432,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9dbe91721b4dce34ab215aeb2da82e2e, type: 2}
+  - {fileID: 2100000, guid: 3ecda961feb9e5e4988174bd914018d0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1607,7 +1615,7 @@ PrefabInstance:
     - target: {fileID: 9047211938718335031, guid: 22522016b79d00d458cb484fbd512331, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 9dbe91721b4dce34ab215aeb2da82e2e, type: 2}
+      objectReference: {fileID: 2100000, guid: 3ecda961feb9e5e4988174bd914018d0, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2749,6 +2757,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Iron_Plant
       objectReference: {fileID: 0}
+    - target: {fileID: 9047211938718335031, guid: 22522016b79d00d458cb484fbd512331, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3ecda961feb9e5e4988174bd914018d0, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

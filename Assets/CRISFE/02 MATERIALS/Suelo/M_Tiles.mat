@@ -27,7 +27,6 @@ Material:
   m_ValidKeywords:
   - _COLORMAP
   - _MAPPING1_TRIPLANAR
-  - _ROUGHNESSMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -154,7 +153,7 @@ Material:
     - _FuzzyBias: 0
     - _FuzzyScale: 1
     - _GlossMapScale: 0
-    - _Glossiness: 0
+    - _Glossiness: 0.898
     - _GlossyReflections: 0
     - _HUE: 0
     - _InvertRoughness: 0
@@ -175,7 +174,7 @@ Material:
     - _PowerTint: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ROUGHNESSMAP: 1
+    - _ROUGHNESSMAP: 0
     - _RandomHUE: 0
     - _ReceiveShadows: 1
     - _Rotation: 44.9

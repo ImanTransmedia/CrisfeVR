@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7811249347622256578}
   - component: {fileID: 9062107135388272102}
   m_Layer: 0
-  m_Name: Mesa_Sensorial
+  m_Name: Mesa_Sensorial_Pintura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67,7 +67,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: f9c53cdc2890c7f4a9bc0fba03714a78, type: 2}
-  - {fileID: 2100000, guid: b6f819f1277d58e4c9edc9313ac3c794, type: 2}
+  - {fileID: 2100000, guid: 515e6bb194cb9d34d946492cf9ed4297, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

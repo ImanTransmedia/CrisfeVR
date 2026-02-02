@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Arena
+  m_Name: M_Arena 1
   m_Shader: {fileID: -6465566751694194690, guid: c7a31a031552d0e428d982093bd6606c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -50,7 +50,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: fd6a48b825aa3114a80e3519dd88babb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 08d665b04f287ca4d9aa54d6e25059b5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -78,7 +78,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 6745d4ec61d85e74fb7a36bfbc073f01, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2fb106cb34c288546958fd2c43f720cf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -94,7 +94,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _R_M_AO:
-        m_Texture: {fileID: 2800000, guid: 39db225709243644589f6b4225f39433, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3fe580075d689f3458e0c2fe15efca0d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SSSMap:

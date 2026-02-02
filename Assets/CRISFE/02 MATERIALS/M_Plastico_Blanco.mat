@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Manija
+  m_Name: M_Plastico_Blanco
   m_Shader: {fileID: -6465566751694194690, guid: c7a31a031552d0e428d982093bd6606c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -139,14 +139,14 @@ Material:
     - _FuzzyBias: 0
     - _FuzzyScale: 1
     - _GlossMapScale: 0
-    - _Glossiness: 0.7
+    - _Glossiness: 0.571
     - _GlossyReflections: 0
     - _HUE: 0
     - _InvertRoughness: 0
     - _MAPPING1: 0
     - _METALLICMAP: 0
     - _MaxRoughness: 1
-    - _Metallic: 1
+    - _Metallic: 0
     - _MetallicBrillo: 1
     - _MetallicContraste: 1
     - _NoiseScale: 0
@@ -194,10 +194,10 @@ Material:
     - _ZWriteControl: 0
     m_Colors:
     - _AOClamp: {r: 0, g: 1, b: 0, a: 0}
-    - _BackFaceColor: {r: 0, g: 0, b: 0, a: 0}
+    - _BackFaceColor: {r: 0.9245283, g: 0.9245283, b: 0.9245283, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BlancosYNegros: {r: 0, g: 1, b: 0, a: 0}
-    - _Color: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 1}
+    - _Color: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
     - _ColorClamp: {r: 0, g: 1, b: 0, a: 0}
     - _ColorFuzzi: {r: 1, g: 1, b: 1, a: 0}
     - _ColorSSS: {r: 0, g: 0, b: 0, a: 0}

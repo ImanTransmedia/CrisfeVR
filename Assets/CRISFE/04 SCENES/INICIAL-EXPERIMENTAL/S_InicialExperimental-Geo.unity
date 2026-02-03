@@ -1319,6 +1319,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Puff
       objectReference: {fileID: 0}
+    - target: {fileID: 2312921410135424595, guid: 3f0aedbaf304d6a468994209cdd13d51, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3760392516433042019, guid: 3f0aedbaf304d6a468994209cdd13d51, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.472
@@ -1541,6 +1545,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f8137345685c6724685ac09dff416fbe, type: 3}
       propertyPath: m_Name
       value: Stool
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f8137345685c6724685ac09dff416fbe, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f8137345685c6724685ac09dff416fbe, type: 3}
       propertyPath: m_StaticEditorFlags

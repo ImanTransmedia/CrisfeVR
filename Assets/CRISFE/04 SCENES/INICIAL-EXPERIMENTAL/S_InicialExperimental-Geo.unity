@@ -217,6 +217,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3055151484953451976, guid: d1393c540b6509e4f945273d0c0d7837, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3559788082499157021, guid: d1393c540b6509e4f945273d0c0d7837, type: 3}
       propertyPath: m_Name
       value: Saw_LOD0
@@ -290,6 +294,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3055151484953451976, guid: d1393c540b6509e4f945273d0c0d7837, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3559788082499157021, guid: d1393c540b6509e4f945273d0c0d7837, type: 3}
       propertyPath: m_Name
       value: Saw_LOD0 (1)
@@ -1974,6 +1982,10 @@ PrefabInstance:
     - target: {fileID: 4582067632475767459, guid: d3baf031e8b568e41b08c029127529ab, type: 3}
       propertyPath: m_Name
       value: Cincel (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8609283878379759995, guid: d3baf031e8b568e41b08c029127529ab, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8609283878379759995, guid: d3baf031e8b568e41b08c029127529ab, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -4289,6 +4301,10 @@ PrefabInstance:
     - target: {fileID: 4582067632475767459, guid: d3baf031e8b568e41b08c029127529ab, type: 3}
       propertyPath: m_Name
       value: Cincel (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8609283878379759995, guid: d3baf031e8b568e41b08c029127529ab, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7228,6 +7244,10 @@ PrefabInstance:
       value: Cincel (3)
       objectReference: {fileID: 0}
     - target: {fileID: 8609283878379759995, guid: d3baf031e8b568e41b08c029127529ab, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8609283878379759995, guid: d3baf031e8b568e41b08c029127529ab, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 89bd5c71eb4c814429ef06bbc205bf24, type: 2}
@@ -7573,6 +7593,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cincel (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8609283878379759995, guid: d3baf031e8b568e41b08c029127529ab, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7641,6 +7665,10 @@ PrefabInstance:
     - target: {fileID: 4582067632475767459, guid: d3baf031e8b568e41b08c029127529ab, type: 3}
       propertyPath: m_Name
       value: Cincel (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8609283878379759995, guid: d3baf031e8b568e41b08c029127529ab, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8609283878379759995, guid: d3baf031e8b568e41b08c029127529ab, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -8113,6 +8141,10 @@ PrefabInstance:
     - target: {fileID: 4582067632475767459, guid: d3baf031e8b568e41b08c029127529ab, type: 3}
       propertyPath: m_Name
       value: Cincel
+      objectReference: {fileID: 0}
+    - target: {fileID: 8609283878379759995, guid: d3baf031e8b568e41b08c029127529ab, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

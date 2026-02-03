@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/CRISFE/04 SCENES/MenuInicial.unity
+    guid: 51a5a21e4b9843d40a1d7b0f835a2f3d
+  - enabled: 1
     path: Assets/CRISFE/04 SCENES/INICIAL-SIERRA/S_InicialSierra-Interaccion.unity
     guid: de67fc053878f1e42890ca48a4d6715c
   - enabled: 1
@@ -14,6 +17,33 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CRISFE/04 SCENES/INICIAL-SIERRA/S_InicialSierra-Geo.unity
     guid: 916fd1eff6681a94e87b36dbd3929904
+  - enabled: 1
+    path: Assets/CRISFE/04 SCENES/GENERAL_5TO_9NO/S_Aula03-Iluminacion.unity
+    guid: 1d172d105ec90cc41ba959ff4d29b0da
+  - enabled: 1
+    path: Assets/CRISFE/04 SCENES/GENERAL_5TO_9NO/S_Aula03-Interaccion.unity
+    guid: 92d745d5f46dedf4e97061713e0552e4
+  - enabled: 1
+    path: Assets/CRISFE/04 SCENES/GENERAL_5TO_9NO/S_Aula_03-Geo.unity
+    guid: 68835126af5ec1a44a96c4bfe954456e
+  - enabled: 1
+    path: Assets/CRISFE/04 SCENES/GENERAL_10MO_12VO/S_Aula04-Iluminacion.unity
+    guid: 5bc01d4c08f410942b197c98b7afae84
+  - enabled: 1
+    path: Assets/CRISFE/04 SCENES/GENERAL_10MO_12VO/S_Aula04-Interaccion.unity
+    guid: acfac1f02480c1c468c1987199fc87fd
+  - enabled: 1
+    path: Assets/CRISFE/04 SCENES/GENERAL_10MO_12VO/S_Aula_04-Geo.unity
+    guid: a9c901b56e2e322448ea8bf92bc5166a
+  - enabled: 1
+    path: Assets/CRISFE/04 SCENES/INICIAL-EXPERIMENTAL/S_InicialExperimental-Geo.unity
+    guid: 4a45eaacbddabd344987355be08f5197
+  - enabled: 1
+    path: Assets/CRISFE/04 SCENES/INICIAL-EXPERIMENTAL/S_InicialExperimental-Iluminacion.unity
+    guid: ccceb98bc1b7430488980888c42a4e21
+  - enabled: 1
+    path: Assets/CRISFE/04 SCENES/INICIAL-EXPERIMENTAL/S_InicialExperimental-Interaccion.unity
+    guid: 415f280febd3b0d4cbced8549e35e627
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 165e12f3032f80449aba76828d1d94ec, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2747fd4a081024142a3bf4cd6213537d, type: 2}

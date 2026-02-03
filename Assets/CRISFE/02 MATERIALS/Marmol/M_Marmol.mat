@@ -131,7 +131,7 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _Brillo: 1
-    - _BrilloRoughness: 50.54
+    - _BrilloRoughness: 52.34
     - _BumpScale: 1
     - _COLORMAP: 1
     - _CastShadows: 1
@@ -180,7 +180,7 @@ Material:
     - _RandomHUE: 0
     - _ReceiveShadows: 1
     - _Rotation: 0
-    - _RoughnessContrast: 1
+    - _RoughnessContrast: 1.07
     - _SSS_Direct: 0.5
     - _SSS_Indirect: 0.5
     - _SSS_Intensity: 0
@@ -226,7 +226,7 @@ Material:
     - _SSS_Tint: {r: 0.8509804, g: 0.5803921, b: 0.38039213, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
-    - _Tile: {r: 3, g: 3, b: 3, a: 0}
+    - _Tile: {r: 5, g: 5, b: 5, a: 0}
     - _Tint: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

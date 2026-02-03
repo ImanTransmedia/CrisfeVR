@@ -26,7 +26,8 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _COLORMAP
-  - _MAPPING1_TRIPLANAR
+  - _MAPPING1_UV
+  - _METALLICMAP
   - _ROUGHNESSMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -50,7 +51,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: fd6a48b825aa3114a80e3519dd88babb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4586c1333f697e044ad1e8edbc42ef9c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -78,7 +79,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 6745d4ec61d85e74fb7a36bfbc073f01, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8636a62da45edd34f98cd141b3e0a061, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -94,7 +95,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _R_M_AO:
-        m_Texture: {fileID: 2800000, guid: 39db225709243644589f6b4225f39433, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7583176c10db797439694e00505535d3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SSSMap:
@@ -129,14 +130,14 @@ Material:
     - _BackFaceTex_1: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _Brillo: 1.38
-    - _BrilloRoughness: -2.19
+    - _Brillo: 1.58
+    - _BrilloRoughness: 0.51
     - _BumpScale: 1
     - _COLORMAP: 1
     - _CastShadows: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Contraste: 1.02
+    - _Contraste: 0.9
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -157,22 +158,22 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _HUE: 0
-    - _InvertRoughness: 0
-    - _MAPPING1: 2
-    - _METALLICMAP: 0
+    - _InvertRoughness: 1
+    - _MAPPING1: 0
+    - _METALLICMAP: 1
     - _MaxRoughness: 1
     - _Metallic: 0
     - _MetallicBrillo: 1
     - _MetallicContraste: 1
     - _NoiseScale: 0
     - _NormalDetails: 0
-    - _NormalStrenght: 1
+    - _NormalStrenght: 2
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _Power: 1
     - _PowerFresnel: 1
     - _PowerFresnelBC: 1
-    - _PowerTint: 0
+    - _PowerTint: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ROUGHNESSMAP: 1
@@ -184,7 +185,7 @@ Material:
     - _SSS_Indirect: 0.5
     - _SSS_Intensity: 0
     - _SSS_ShadowStrenght: 0.5
-    - _Saturacion: 1.17
+    - _Saturacion: 1
     - _Seed: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
@@ -221,11 +222,11 @@ Material:
     - _EdgeTilling: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _M_B_N: {r: 0, g: 1, b: 0, a: 0}
-    - _Offset: {r: 1.46, g: 0, b: 0, a: 0}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _SSS_Tint: {r: 0.8509804, g: 0.5803921, b: 0.38039213, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
-    - _Tile: {r: 2, g: 2, b: 1, a: 0}
-    - _Tint: {r: 0, g: 0, b: 0, a: 0}
+    - _Tile: {r: 1, g: 1, b: 1, a: 0}
+    - _Tint: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

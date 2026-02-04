@@ -28,7 +28,6 @@ Material:
   - _COLORMAP
   - _MAPPING1_PLANAR
   - _METALLICMAP
-  - _ROUGHNESSMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -131,7 +130,7 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _Brillo: 1
-    - _BrilloRoughness: 52.34
+    - _BrilloRoughness: 1
     - _BumpScale: 1
     - _COLORMAP: 1
     - _CastShadows: 1
@@ -155,7 +154,7 @@ Material:
     - _FuzzyBias: 0
     - _FuzzyScale: 1
     - _GlossMapScale: 0
-    - _Glossiness: 0
+    - _Glossiness: 0.943
     - _GlossyReflections: 0
     - _HUE: 0
     - _InvertRoughness: 0
@@ -176,11 +175,11 @@ Material:
     - _PowerTint: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ROUGHNESSMAP: 1
+    - _ROUGHNESSMAP: 0
     - _RandomHUE: 0
     - _ReceiveShadows: 1
     - _Rotation: 0
-    - _RoughnessContrast: 1.07
+    - _RoughnessContrast: 1
     - _SSS_Direct: 0.5
     - _SSS_Indirect: 0.5
     - _SSS_Intensity: 0

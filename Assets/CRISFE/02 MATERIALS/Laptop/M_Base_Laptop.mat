@@ -95,7 +95,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _R_M_AO:
-        m_Texture: {fileID: 2800000, guid: 9ef9bf4dbe935ad49bc95592791f9da2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 480fad1fc90c1f049830217f3104fe76, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SSSMap:
@@ -120,7 +120,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AOBrillo: 1
+    - _AOBrillo: 18.46
     - _AOContraste: 1
     - _AddPrecomputedVelocity: 0
     - _Alpha: 1
@@ -131,7 +131,7 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _Brillo: 1
-    - _BrilloRoughness: 0.23
+    - _BrilloRoughness: 0.89
     - _BumpScale: 1
     - _COLORMAP: 1
     - _CastShadows: 1
@@ -158,7 +158,7 @@ Material:
     - _Glossiness: 0.09
     - _GlossyReflections: 0
     - _HUE: 0
-    - _InvertRoughness: 0
+    - _InvertRoughness: 1
     - _MAPPING1: 0
     - _METALLICMAP: 1
     - _MaxRoughness: 1
@@ -180,7 +180,7 @@ Material:
     - _RandomHUE: 0
     - _ReceiveShadows: 1
     - _Rotation: 0
-    - _RoughnessContrast: 1
+    - _RoughnessContrast: 1.27
     - _SSS_Direct: 0.5
     - _SSS_Indirect: 0.5
     - _SSS_Intensity: 0

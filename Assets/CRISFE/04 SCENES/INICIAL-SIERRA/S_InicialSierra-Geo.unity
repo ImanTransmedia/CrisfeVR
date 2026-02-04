@@ -11958,6 +11958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa_Circular
       objectReference: {fileID: 0}
+    - target: {fileID: 2220327831094757213, guid: 526f20c8cf680e046960e10048711f86, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9107533961962666526, guid: 526f20c8cf680e046960e10048711f86, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.026

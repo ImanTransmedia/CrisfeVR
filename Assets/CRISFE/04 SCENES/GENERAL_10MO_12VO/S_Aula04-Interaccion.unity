@@ -5,11 +5,11 @@ OcclusionCullingSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_OcclusionBakeSettings:
-    smallestOccluder: 5
-    smallestHole: 0.25
+    smallestOccluder: 0.1
+    smallestHole: 0.01
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: acfac1f02480c1c468c1987199fc87fd
+  m_OcclusionCullingData: {fileID: 36300000, guid: 40869160b371cf240b5cc5161f06a233, type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000002, guid: 049dffdb502c96f45806e81dd1543dba, type: 2}
+  m_LightingDataAsset: {fileID: 112000002, guid: 7ed9eaa6319a9e347b9287a6a7ae23bf, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: e6b053799bd9bf34db0084f819814a3c, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -459,7 +459,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.13333334
+  m_VoxelSize: 0.05
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 6562e0afca2829d49b5685e7778f0414, type: 2}
   m_BuildHeightMesh: 0
@@ -857,7 +857,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 801297175083181503, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.543
       objectReference: {fileID: 0}
     - target: {fileID: 801297175083181503, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
       propertyPath: m_LocalPosition.y
@@ -865,7 +865,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 801297175083181503, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -3.129
       objectReference: {fileID: 0}
     - target: {fileID: 801297175083181503, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1349,8 +1349,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037623615}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.005, z: 2.88}
+  m_LocalRotation: {x: -0, y: -0.000000014901159, z: -0, w: 1}
+  m_LocalPosition: {x: -0.62, y: 0.004999995, z: -0.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1546,6 +1546,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tags:
   - Snappable
+--- !u!1 &1290002911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1290002913}
+  - component: {fileID: 1290002912}
+  m_Layer: 0
+  m_Name: Occlusion Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!192 &1290002912
+OcclusionArea:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290002911}
+  serializedVersion: 2
+  m_Size: {x: 9.706955, y: 3.4957585, z: 6.8632107}
+  m_Center: {x: -0.5045452, y: 1.6150177, z: -0.6030617}
+  m_IsViewVolume: 1
+--- !u!4 &1290002913
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290002911}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1360737029
 GameObject:
   m_ObjectHideFlags: 0
@@ -2799,3 +2842,4 @@ SceneRoots:
   - {fileID: 1981576012}
   - {fileID: 1737467080}
   - {fileID: 1037623616}
+  - {fileID: 1290002913}

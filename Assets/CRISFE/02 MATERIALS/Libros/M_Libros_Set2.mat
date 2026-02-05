@@ -130,7 +130,7 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _Brillo: 1
-    - _BrilloRoughness: 1
+    - _BrilloRoughness: 1.08
     - _BumpScale: 1
     - _COLORMAP: 1
     - _CastShadows: 1
@@ -157,7 +157,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _HUE: 0
-    - _InvertRoughness: 1
+    - _InvertRoughness: 0
     - _MAPPING1: 0
     - _METALLICMAP: 0
     - _MaxRoughness: 1

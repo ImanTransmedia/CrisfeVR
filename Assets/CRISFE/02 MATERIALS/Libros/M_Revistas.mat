@@ -153,7 +153,7 @@ Material:
     - _FuzzyBias: 0
     - _FuzzyScale: 1
     - _GlossMapScale: 0
-    - _Glossiness: 0.738
+    - _Glossiness: 0.496
     - _GlossyReflections: 0
     - _HUE: 0
     - _InvertRoughness: 0

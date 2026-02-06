@@ -27,6 +27,7 @@ Material:
   m_ValidKeywords:
   - _COLORMAP
   - _MAPPING1_UV
+  - _ROUGHNESSMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -129,7 +130,7 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _Brillo: 1
-    - _BrilloRoughness: 1
+    - _BrilloRoughness: 0.06
     - _BumpScale: 1
     - _COLORMAP: 1
     - _CastShadows: 1
@@ -174,7 +175,7 @@ Material:
     - _PowerTint: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ROUGHNESSMAP: 0
+    - _ROUGHNESSMAP: 1
     - _RandomHUE: 0
     - _ReceiveShadows: 1
     - _Rotation: 0

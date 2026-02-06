@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/HDRiBackdrop/TEXTURAS/docklands_02_2k.hdr.meta
 guid: d9149a56794540949a640a7ba4697a69
+========
+guid: 16c3c12d12d8c2748b06b38628565ba6
+>>>>>>>> origin/Lady:Assets/CRISFE/04 SCENES/GENERAL_10MO_12VO/S_Aula_04-Geo/Lightmap-0_comp_dir.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

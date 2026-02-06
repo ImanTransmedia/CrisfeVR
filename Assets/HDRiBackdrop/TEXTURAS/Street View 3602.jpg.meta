@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/HDRiBackdrop/TEXTURAS/Street View 3602.jpg.meta
 guid: d6037fb6e0963504ca9b3cbf393e592d
+========
+guid: 992c4f4bae6dcdb4db2952c886af17e4
+>>>>>>>> origin/Lady:Assets/CRISFE/04 SCENES/GENERAL_10MO_12VO/S_Aula_04-Geo/Lightmap-0_comp_light.exr.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

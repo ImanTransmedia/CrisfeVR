@@ -102,11 +102,28 @@
         },
         {
             "m_Id": "326e63fa39e04b4fa7702c44ce27d726"
+        },
+        {
+            "m_Id": "0cf73191c2014b8984f388d8022b8833"
         }
     ],
     "m_GroupDatas": [],
     "m_StickyNoteDatas": [],
     "m_Edges": [
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "0cf73191c2014b8984f388d8022b8833"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "2057264f4921431da389b40c1e3a24aa"
+                },
+                "m_SlotId": 1
+            }
+        },
         {
             "m_OutputSlot": {
                 "m_Node": {
@@ -371,6 +388,42 @@
             "m_Id": "a9a8793ab04346f8bd6fbd490f1d3d84"
         }
     ]
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "0cf73191c2014b8984f388d8022b8833",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -646.0000610351563,
+            "y": -233.00001525878907,
+            "width": 153.99993896484376,
+            "height": 34.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "50d3232cfc5a4f18a9369c22882a16b0"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "ab31eafb9a304cd18dac1267e55f4679"
+    }
 }
 
 {
@@ -900,6 +953,19 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CubemapMaterialSlot",
+    "m_ObjectId": "50d3232cfc5a4f18a9369c22882a16b0",
+    "m_Id": 0,
+    "m_DisplayName": "HDRiCubemap",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_BareResource": false
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "561c05d3c46845f0a795d372a38caf79",
     "m_Group": {
@@ -941,7 +1007,7 @@
     "m_Group": {
         "m_Id": ""
     },
-    "m_Name": "Enum",
+    "m_Name": "Device",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
@@ -1832,7 +1898,7 @@
     "m_PerRendererData": false,
     "m_customAttributes": [],
     "m_Value": {
-        "m_SerializedCubemap": "{\"cubemap\":{\"instanceID\":0}}",
+        "m_SerializedCubemap": "{\"cubemap\":{\"fileID\":8900000,\"guid\":\"35f7b067961fe9240861e8e06cad0d3f\",\"type\":3}}",
         "m_Guid": ""
     },
     "m_Modifiable": true

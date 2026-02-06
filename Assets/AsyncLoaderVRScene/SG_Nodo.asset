@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: SG_Nodo
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptGraphAsset
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Invoke","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"Exit","label":null,"summary":null,"hideLabel":true}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":null,"_type":"System.String","key":"Level","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":false,"defaultValue":null,"_type":"Unity.VisualScripting.AotList","key":"Subniveles","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":true,"defaultValue":{"$content":"S_Loading","$type":"System.String"},"_type":"System.String","key":"LoadingScene","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":"SG_CargaAsincronicaNivel","summary":null,"pan":{"x":-303.0,"y":180.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-682.0,"y":19.0},"guid":"bb00e36e-5975-40e9-aafa-f341b67fdb8b","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"14"},{"defaultValues":{},"position":{"x":-250.0,"y":19.0},"guid":"08ad40c4-fdba-43f3-8922-994eff305ba0","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"16"},{"chainable":false,"parameterNames":["Level","Sublevels","LoadingScene"],"member":{"name":"LoadLevel","parameterTypes":["System.String","System.Collections.Generic.List`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]","System.String"],"targetType":"S_CargadorNivel","targetTypeName":"S_CargadorNivel","$version":"A"},"defaultValues":{"%Level":{"$content":"","$type":"System.String"},"%LoadingScene":{"$content":"S_Loading","$type":"System.String"}},"position":{"x":-475.0,"y":23.0},"guid":"4b19ed80-8026-485a-9224-c73f6cea3667","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"18"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Invoke","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"b7e95c47-201c-4002-ac44-514f3787e0bd","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"exit","destinationUnit":{"$ref":"16"},"destinationKey":"Exit","guid":"2193759d-5e73-4165-9f0a-74328d163456","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Level","destinationUnit":{"$ref":"18"},"destinationKey":"%Level","guid":"5fc6c478-2f09-4e35-ae23-41da69fff59c","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Subniveles","destinationUnit":{"$ref":"18"},"destinationKey":"%Sublevels","guid":"04099869-ae45-4700-b6eb-f1ac03f6d884","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"LoadingScene","destinationUnit":{"$ref":"18"},"destinationKey":"%LoadingScene","guid":"37443494-d777-4317-a780-05343eda1bdb","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

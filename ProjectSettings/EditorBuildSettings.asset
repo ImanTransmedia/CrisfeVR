@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/CRISFE/04 SCENES/MenuInicial.unity
+    path: Assets/CRISFE/04 SCENES/MenuInicial/MenuInicial.unity
     guid: 51a5a21e4b9843d40a1d7b0f835a2f3d
   - enabled: 1
     path: Assets/AsyncLoaderVRScene/S_Loading.unity

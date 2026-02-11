@@ -1006,6 +1006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::S_CargaAsincronica
   progressBar: {fileID: 1735233163}
+  minLoadingTime: 10
   psoCollection: {fileID: 0}
   psosPerFrame: 32
   cameraLoading: {fileID: 94861917}

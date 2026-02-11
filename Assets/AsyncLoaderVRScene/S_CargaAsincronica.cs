@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Experimental.Rendering;
@@ -10,6 +9,10 @@ public class S_CargaAsincronica : MonoBehaviour
 {
     [Header("UI - Barra de progreso")]
     [SerializeField] private UnityEngine.UI.Image progressBar;
+
+    [Header("Tiempo mínimo de loading (segundos)")]
+    [Tooltip("Tiempo mínimo que dura la escena de loading, aunque la carga real termine antes")]
+    [SerializeField] private float minLoadingTime;
 
     [Header("Shader Warmup (Unity 6+ recomendado)")]
     [SerializeField] private GraphicsStateCollection psoCollection;
@@ -55,6 +58,8 @@ public class S_CargaAsincronica : MonoBehaviour
 
     private IEnumerator LoadSceneCoroutineVR()
     {
+        float startTime = Time.time;
+
         UpdateProgress(0f);
 
         string main = S_CargadorNivel._NextLevel;
@@ -85,8 +90,13 @@ public class S_CargaAsincronica : MonoBehaviour
         // Cambio crítico de cámaras VR
         yield return StartCoroutine(CambiarCamaraVR(main));
 
-        // Delay visual 100%
-        yield return new WaitForSeconds(0.5f);
+        // Forzar tiempo mínimo de loading (si la carga terminó antes, esperar el resto)
+        float elapsed = Time.time - startTime;
+        if (elapsed < minLoadingTime)
+        {
+            Debug.Log($"[Carga VR] Carga real terminó en {elapsed:F2}s → esperando {minLoadingTime - elapsed:F2}s extra para completar mínimo");
+            yield return new WaitForSeconds(minLoadingTime - elapsed);
+        }
 
         // Descargar loading
         Debug.Log("[Carga VR] Descargando loading...");
@@ -140,14 +150,14 @@ public class S_CargaAsincronica : MonoBehaviour
         GameObject nuevaCamaraGO = BuscadorObjetoPorTag.BuscarEnEscena(escenaPrincipalNombre, tagNuevaCamara);
         if (nuevaCamaraGO == null)
         {
-            Debug.LogError($"[Carga VR] No se encontró cámara con tag '{tagNuevaCamara}' en '{escenaPrincipalNombre}'");
+            Debug.Log($"[Carga VR] No se encontró cámara con tag '{tagNuevaCamara}' en '{escenaPrincipalNombre}'");
             yield break;
         }
 
         OVRCameraRig nuevaCamara = nuevaCamaraGO.GetComponent<OVRCameraRig>();
         if (nuevaCamara == null)
         {
-            Debug.LogError("[Carga VR] Objeto encontrado no es OVRCameraRig");
+            Debug.Log("[Carga VR] Objeto encontrado no es OVRCameraRig");
             yield break;
         }
 

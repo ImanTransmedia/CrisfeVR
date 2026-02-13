@@ -2910,6 +2910,30 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5411471276024503608, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5411471276024503608, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5411471276024503608, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5411471276024503608, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5411471276024503608, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5411471276024503608, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: m_AllowDynamicResolution
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5411471276025122500, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2917,6 +2941,46 @@ PrefabInstance:
     - target: {fileID: 5411471276025122500, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5430889884593012086, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5430889884593012086, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5430889884593012086, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5430889884593012086, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5430889884593012086, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5430889886892712684, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5430889886892712684, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5430889886892712684, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5430889886892712684, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5430889886892712684, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6036769329254447746, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
       propertyPath: m_AnchorMax.y

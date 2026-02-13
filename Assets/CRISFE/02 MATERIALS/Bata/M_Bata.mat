@@ -12,6 +12,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _COLORMAP
   - _FABRIC
   - _MAPPING1_UV
   m_InvalidKeywords: []
@@ -118,7 +119,7 @@ Material:
     - _Brillo: 1
     - _BrilloRoughness: 1
     - _BumpScale: 1
-    - _COLORMAP: 0
+    - _COLORMAP: 1
     - _CastShadows: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -158,7 +159,7 @@ Material:
     - _Power: 1
     - _PowerFresnel: 1
     - _PowerFresnelBC: 1
-    - _PowerTint: 0
+    - _PowerTint: 0.882
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ROUGHNESSMAP: 0
@@ -212,7 +213,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
     - _Tile: {r: 1, g: 1, b: 1, a: 0}
-    - _Tint: {r: 0, g: 0, b: 0, a: 0}
+    - _Tint: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &6316398411506864013

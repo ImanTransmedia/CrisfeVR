@@ -120,7 +120,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AOBrillo: 1
+    - _AOBrillo: 1.09
     - _AOContraste: 1
     - _AddPrecomputedVelocity: 0
     - _Alpha: 1
@@ -196,7 +196,7 @@ Material:
     - _Surface: 0
     - _Threshold: 0
     - _UseAlphaMap: 0
-    - _UseAoMap: 1
+    - _UseAoMap: 0
     - _UseDither: 0
     - _UseEmissiveMap: 0
     - _UseNormalMap: 1

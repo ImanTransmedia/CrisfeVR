@@ -119,7 +119,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AOBrillo: 1
+    - _AOBrillo: 1.11
     - _AOContraste: 1
     - _AddPrecomputedVelocity: 0
     - _Alpha: 1

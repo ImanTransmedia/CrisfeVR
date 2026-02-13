@@ -95,7 +95,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _R_M_AO:
-        m_Texture: {fileID: 2800000, guid: 480fad1fc90c1f049830217f3104fe76, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9ef9bf4dbe935ad49bc95592791f9da2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SSSMap:
@@ -131,7 +131,7 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _Brillo: 1
-    - _BrilloRoughness: 0.8
+    - _BrilloRoughness: 0.9
     - _BumpScale: 1
     - _COLORMAP: 1
     - _CastShadows: 1
@@ -158,7 +158,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _HUE: 0
-    - _InvertRoughness: 0
+    - _InvertRoughness: 1
     - _MAPPING1: 0
     - _METALLICMAP: 1
     - _MaxRoughness: 1
@@ -214,7 +214,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BlancosYNegros: {r: 0, g: 1, b: 0, a: 0}
     - _Color: {r: 0.936, g: 0.936, b: 0.936, a: 1}
-    - _ColorClamp: {r: 0, g: 1, b: 0, a: 0}
+    - _ColorClamp: {r: 0.02, g: 1, b: 0, a: 0}
     - _ColorFuzzi: {r: 1, g: 1, b: 1, a: 0}
     - _ColorSSS: {r: 0, g: 0, b: 0, a: 0}
     - _Direction: {r: 0.3, g: 1, b: 0, a: 0}

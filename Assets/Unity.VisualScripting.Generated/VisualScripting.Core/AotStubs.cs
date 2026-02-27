@@ -1209,8 +1209,8 @@ namespace Unity.VisualScripting.Generated.Aot
 	// UnityEngine.GameObject.SetActive
 	// UnityEngine.Transform.localPosition
 	// UnityEngine.Animator.SetBool
-	// UnityEngine.Playables.PlayableDirector.Pause
 	// UnityEngine.Events.UnityEvent.Invoke
+	// UnityEngine.Playables.PlayableDirector.Pause
 	// UnityEngine.Playables.PlayableDirector.Stop
 	// UnityEngine.Debug.LogWarning
 	// UnityEngine.SceneManagement.SceneManager.LoadScene
@@ -15168,17 +15168,6 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.Playables.PlayableDirector.Pause
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Playables_PlayableDirector_Pause()
-		{
-			global::UnityEngine.Playables.PlayableDirector target = default(global::UnityEngine.Playables.PlayableDirector);
-			target.Pause();
-			global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.Playables.PlayableDirector> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.Playables.PlayableDirector>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(default(global::UnityEngine.Playables.PlayableDirector));
-			optimized.Invoke(default(object[]));
-		}
-		
 		// UnityEngine.Events.UnityEvent.Invoke
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void UnityEngine_Events_UnityEvent_Invoke()
@@ -15187,6 +15176,17 @@ namespace Unity.VisualScripting.Generated.Aot
 			target.Invoke();
 			global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.Events.UnityEvent> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.Events.UnityEvent>(default(global::System.Reflection.MethodInfo));
 			optimized.Invoke(default(global::UnityEngine.Events.UnityEvent));
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.Playables.PlayableDirector.Pause
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Playables_PlayableDirector_Pause()
+		{
+			global::UnityEngine.Playables.PlayableDirector target = default(global::UnityEngine.Playables.PlayableDirector);
+			target.Pause();
+			global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.Playables.PlayableDirector> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<UnityEngine.Playables.PlayableDirector>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(global::UnityEngine.Playables.PlayableDirector));
 			optimized.Invoke(default(object[]));
 		}
 		

@@ -1447,9 +1447,9 @@ MonoBehaviour:
   _data: {fileID: 0}
   _pointableElement: {fileID: 7434992874721579760}
   _surfacePatch: {fileID: 7226202556937310556}
-  _enterHoverNormal: 0.02
+  _enterHoverNormal: 0.03
   _enterHoverTangent: 0
-  _exitHoverNormal: 0.03
+  _exitHoverNormal: 0.035
   _exitHoverTangent: 0
   _cancelSelectNormal: 0
   _cancelSelectTangent: 0.01
@@ -1733,6 +1733,30 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Unity.VisualScripting.ScriptMachine, Unity.VisualScripting.Flow
+        m_MethodName: TriggerUnityEvent
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: OnBoardingFinalizado
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1355365350004511826}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: OnBoardingFinalizado
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!1 &2807578821501607174
 GameObject:
@@ -4215,10 +4239,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1355365350004511826}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Unity.VisualScripting.ScriptMachine, Unity.VisualScripting.Flow
+        m_MethodName: TriggerUnityEvent
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5350,7 +5374,7 @@ MonoBehaviour:
       outWeight: 0.3639607
     - serializedVersion: 3
       time: 0.8
-      value: 0
+      value: 0.29492188
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -5360,7 +5384,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _defaultButtonDistance: 50
+  _defaultButtonDistance: 25
   _paginationSwipeAudio: {fileID: 5542451705180286070}
   _showMenuAudio: {fileID: 8558761509726852341}
   _hideMenuAudio: {fileID: 3557740060603880600}
@@ -5379,7 +5403,7 @@ MonoBehaviour:
   _hand: {fileID: 5539366746760640041}
   _offset: {x: -0.08, y: 0, z: -0.001}
   _rotation: {x: -0.00000003090862, y: 0.70710677, z: -0.70710677, w: -0.00000003090862}
-  _posOffset: {x: -0.001, y: 0, z: 0.08}
+  _posOffset: {x: -0.001, y: -0.01, z: 0.08}
   _rotOffset: {x: 0.50000006, y: -0.49999997, z: 0.5, w: 0.5}
   _mirrorOffsetsForLeftHand: 1
   _freezeRotationX: 0
@@ -6103,6 +6127,18 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 2626527561532012390}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1355365350004511826}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6

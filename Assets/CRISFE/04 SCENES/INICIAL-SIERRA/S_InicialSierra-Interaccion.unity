@@ -10663,6 +10663,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 252892042649390188, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 256348971959383793, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
       propertyPath: m_Antialiasing
       value: 0
@@ -10770,6 +10774,14 @@ PrefabInstance:
     - target: {fileID: 1028842902610951631, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.7041405
+      objectReference: {fileID: 0}
+    - target: {fileID: 1879356737631954631, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: m_Color.a
+      value: 0.015686275
+      objectReference: {fileID: 0}
+    - target: {fileID: 1879356737631954631, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2626527561532012390, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
       propertyPath: m_Name
@@ -10956,37 +10968,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4925707757394951995, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
-      propertyPath: WhenCompleted.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4925707757394951995, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
-      propertyPath: WhenCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4925707757394951995, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
       propertyPath: WhenCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1244617018}
-    - target: {fileID: 4925707757394951995, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
-      propertyPath: WhenCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4925707757394951995, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
-      propertyPath: WhenCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: TriggerUnityEvent
-      objectReference: {fileID: 0}
-    - target: {fileID: 4925707757394951995, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
-      propertyPath: WhenCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Unity.VisualScripting.ScriptMachine, Unity.VisualScripting.Flow
-      objectReference: {fileID: 0}
-    - target: {fileID: 4925707757394951995, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
-      propertyPath: WhenCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: OnBoardingFinalizado
-      objectReference: {fileID: 0}
-    - target: {fileID: 4925707757394951995, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
-      propertyPath: WhenCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 5411471276024503608, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
       propertyPath: m_ClearFlags
       value: 2
@@ -11190,21 +11174,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6368185099816408867, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
-      propertyPath: WhenCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6368185099816408867, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
       propertyPath: WhenCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1244617018}
-    - target: {fileID: 6368185099816408867, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
-      propertyPath: WhenCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: TriggerUnityEvent
-      objectReference: {fileID: 0}
-    - target: {fileID: 6368185099816408867, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
-      propertyPath: WhenCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: Unity.VisualScripting.ScriptMachine, Unity.VisualScripting.Flow
-      objectReference: {fileID: 0}
     - target: {fileID: 6376571002884673191, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -11429,7 +11401,8 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4288042269
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5938644494860996925, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:

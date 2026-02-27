@@ -9744,6 +9744,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6368185099816408867, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: WhenCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1400256681}
+    - target: {fileID: 6368185099816408867, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+      propertyPath: WhenCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: TriggerUnityEvent
+      objectReference: {fileID: 0}
     - target: {fileID: 6376571002884673191, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

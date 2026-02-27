@@ -18,7 +18,7 @@ Material:
   - _ROUGHNESSMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 0
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap:
@@ -160,7 +160,7 @@ Material:
     - _Direction: {r: 0.3, g: 1, b: 0, a: 0}
     - _EdgeOffset: {r: 0, g: 0, b: 0, a: 0}
     - _EdgeTilling: {r: 1, g: 1, b: 0, a: 0}
-    - _EmissionColor: {r: 4.2370944, g: 3.8486443, b: 2.6182046, a: 0}
+    - _EmissionColor: {r: 5.9921575, g: 5.442806, b: 3.702701, a: 0}
     - _M_B_N: {r: 0, g: 1, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _SSS_Tint: {r: 0.8509804, g: 0.5803921, b: 0.38039213, a: 0}

@@ -1216,16 +1216,16 @@ namespace Unity.VisualScripting.Generated.Aot
 	// UnityEngine.SceneManagement.SceneManager.LoadScene
 	// UnityEngine.Playables.PlayableDirector..ctor
 	// --------------- Scene Stubs
-	// UnityEngine.Animator..ctor
-	// UnityEngine.SceneManagement.SceneManager.LoadScene
-	// UnityEngine.GameObject..ctor
-	// UnityEngine.Events.UnityEvent..ctor
 	// Unity.VisualScripting.ScriptMachine..ctor
 	// Unity.VisualScripting.AotList..ctor
 	// UnityEngine.Application.Quit
+	// UnityEngine.Events.UnityEvent..ctor
 	// --------------- Scene Stubs
 	// BuscadorObjetoPorTag.BuscarEnEscena
 	// --------------- Scene Stubs
+	// UnityEngine.Animator..ctor
+	// UnityEngine.SceneManagement.SceneManager.LoadScene
+	// UnityEngine.GameObject..ctor
 	// --------------- Scene Stubs
 	// --------------- Scene Stubs
 	// --------------- Scene Stubs
@@ -15230,39 +15230,6 @@ namespace Unity.VisualScripting.Generated.Aot
 			new UnityEngine.Playables.PlayableDirector();
 		}
 		
-		// UnityEngine.Animator..ctor
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Animator_ctor()
-		{
-			new UnityEngine.Animator();
-		}
-		
-		// UnityEngine.SceneManagement.SceneManager.LoadScene
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_SceneManagement_SceneManager_LoadScene_0()
-		{
-			string arg0 = default(string);
-			global::UnityEngine.SceneManagement.LoadSceneMode arg1 = default(global::UnityEngine.SceneManagement.LoadSceneMode);
-			global::UnityEngine.SceneManagement.SceneManager.LoadScene(arg0, arg1);
-			global::Unity.VisualScripting.StaticActionInvoker<string, UnityEngine.SceneManagement.LoadSceneMode> optimized = new global::Unity.VisualScripting.StaticActionInvoker<string, UnityEngine.SceneManagement.LoadSceneMode>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0, arg1);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.GameObject..ctor
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_GameObject_ctor()
-		{
-			new UnityEngine.GameObject();
-		}
-		
-		// UnityEngine.Events.UnityEvent..ctor
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Events_UnityEvent_ctor()
-		{
-			new UnityEngine.Events.UnityEvent();
-		}
-		
 		// Unity.VisualScripting.ScriptMachine..ctor
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void Unity_VisualScripting_ScriptMachine_ctor()
@@ -15287,6 +15254,13 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
+		// UnityEngine.Events.UnityEvent..ctor
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Events_UnityEvent_ctor()
+		{
+			new UnityEngine.Events.UnityEvent();
+		}
+		
 		// BuscadorObjetoPorTag.BuscarEnEscena
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void BuscadorObjetoPorTag_BuscarEnEscena()
@@ -15297,6 +15271,32 @@ namespace Unity.VisualScripting.Generated.Aot
 			global::Unity.VisualScripting.StaticFunctionInvoker<string, string, UnityEngine.GameObject> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<string, string, UnityEngine.GameObject>(default(global::System.Reflection.MethodInfo));
 			optimized.Invoke(null, arg0, arg1);
 			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.Animator..ctor
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Animator_ctor()
+		{
+			new UnityEngine.Animator();
+		}
+		
+		// UnityEngine.SceneManagement.SceneManager.LoadScene
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_SceneManagement_SceneManager_LoadScene_0()
+		{
+			string arg0 = default(string);
+			global::UnityEngine.SceneManagement.LoadSceneMode arg1 = default(global::UnityEngine.SceneManagement.LoadSceneMode);
+			global::UnityEngine.SceneManagement.SceneManager.LoadScene(arg0, arg1);
+			global::Unity.VisualScripting.StaticActionInvoker<string, UnityEngine.SceneManagement.LoadSceneMode> optimized = new global::Unity.VisualScripting.StaticActionInvoker<string, UnityEngine.SceneManagement.LoadSceneMode>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0, arg1);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.GameObject..ctor
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_GameObject_ctor()
+		{
+			new UnityEngine.GameObject();
 		}
 	}
 }

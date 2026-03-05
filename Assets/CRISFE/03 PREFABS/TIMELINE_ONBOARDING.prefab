@@ -147,12 +147,77 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Timeline","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Playables.PlayableDirector,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Timeline1","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Playables.PlayableDirector,
       UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TimelineP2","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Playables.PlayableDirector,
-      UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"P_Microgestos","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"P_Microgestos","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EventoTimeline1F","value":{"m_PersistentCalls":{"m_Calls":[{"m_Target":3,"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
+      UnityEngine","m_MethodName":"SetActive","m_Mode":"Bool","m_Arguments":{"m_ObjectArgument":4,"m_ObjectArgumentAssemblyTypeName":"UnityEngine.Object,
+      UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":false},"m_CallState":"RuntimeOnly"},{"m_Target":5,"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
+      UnityEngine","m_MethodName":"SetActive","m_Mode":"Bool","m_Arguments":{"m_ObjectArgument":6,"m_ObjectArgumentAssemblyTypeName":"UnityEngine.Object,
+      UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":false},"m_CallState":"RuntimeOnly"},{"m_Target":7,"m_TargetAssemblyTypeName":"UnityEngine.Playables.PlayableDirector,
+      UnityEngine","m_MethodName":"Play","m_Mode":"Void","m_Arguments":{"m_ObjectArgument":8,"m_ObjectArgumentAssemblyTypeName":"UnityEngine.Object,
+      UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":false},"m_CallState":"RuntimeOnly"},{"m_Target":9,"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
+      UnityEngine","m_MethodName":"SetActive","m_Mode":"Bool","m_Arguments":{"m_ObjectArgument":10,"m_ObjectArgumentAssemblyTypeName":"UnityEngine.Object,
+      UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":true},"m_CallState":"RuntimeOnly"},{"m_Target":11,"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
+      UnityEngine","m_MethodName":"","m_Mode":"Void","m_Arguments":{"m_ObjectArgument":12,"m_ObjectArgumentAssemblyTypeName":"","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":true},"m_CallState":"RuntimeOnly"}]},"$type":"UnityEngine.Events.UnityEvent"},"typeHandle":{"Identification":"UnityEngine.Events.UnityEvent,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EventoInicialOnboarding","value":{"m_PersistentCalls":{"m_Calls":[{"m_Target":13,"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
+      UnityEngine","m_MethodName":"SetActive","m_Mode":"Bool","m_Arguments":{"m_ObjectArgument":14,"m_ObjectArgumentAssemblyTypeName":"UnityEngine.Object,
+      UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":true},"m_CallState":"RuntimeOnly"},{"m_Target":15,"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
+      UnityEngine","m_MethodName":"SetActive","m_Mode":"Bool","m_Arguments":{"m_ObjectArgument":16,"m_ObjectArgumentAssemblyTypeName":"UnityEngine.Object,
+      UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":false},"m_CallState":"RuntimeOnly"},{"m_Target":17,"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
+      UnityEngine","m_MethodName":"SetActive","m_Mode":"Bool","m_Arguments":{"m_ObjectArgument":18,"m_ObjectArgumentAssemblyTypeName":"UnityEngine.Object,
+      UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":false},"m_CallState":"RuntimeOnly"},{"m_Target":19,"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
+      UnityEngine","m_MethodName":"SetActive","m_Mode":"Bool","m_Arguments":{"m_ObjectArgument":20,"m_ObjectArgumentAssemblyTypeName":"UnityEngine.Object,
+      UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":false},"m_CallState":"RuntimeOnly"},{"m_Target":21,"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
+      UnityEngine","m_MethodName":"SetActive","m_Mode":"Bool","m_Arguments":{"m_ObjectArgument":22,"m_ObjectArgumentAssemblyTypeName":"UnityEngine.Object,
+      UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":false},"m_CallState":"RuntimeOnly"},{"m_Target":23,"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
+      UnityEngine","m_MethodName":"","m_Mode":"Void","m_Arguments":{"m_ObjectArgument":24,"m_ObjectArgumentAssemblyTypeName":"","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":false},"m_CallState":"RuntimeOnly"}]},"$type":"UnityEngine.Events.UnityEvent"},"typeHandle":{"Identification":"UnityEngine.Events.UnityEvent,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EventoPostOnboarding","value":{"m_PersistentCalls":{"m_Calls":[{"m_Target":25,"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
+      UnityEngine","m_MethodName":"SetActive","m_Mode":"Bool","m_Arguments":{"m_ObjectArgument":26,"m_ObjectArgumentAssemblyTypeName":"UnityEngine.Object,
+      UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":false},"m_CallState":"RuntimeOnly"},{"m_Target":27,"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
+      UnityEngine","m_MethodName":"SetActive","m_Mode":"Bool","m_Arguments":{"m_ObjectArgument":28,"m_ObjectArgumentAssemblyTypeName":"UnityEngine.Object,
+      UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":false},"m_CallState":"RuntimeOnly"},{"m_Target":29,"m_TargetAssemblyTypeName":"UnityEngine.Playables.PlayableDirector,
+      UnityEngine","m_MethodName":"Play","m_Mode":"Void","m_Arguments":{"m_ObjectArgument":30,"m_ObjectArgumentAssemblyTypeName":"UnityEngine.Object,
+      UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":false},"m_CallState":"RuntimeOnly"},{"m_Target":31,"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
+      UnityEngine","m_MethodName":"SetActive","m_Mode":"Bool","m_Arguments":{"m_ObjectArgument":32,"m_ObjectArgumentAssemblyTypeName":"UnityEngine.Object,
+      UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":false},"m_CallState":"RuntimeOnly"},{"m_Target":33,"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
+      UnityEngine","m_MethodName":"","m_Mode":"Void","m_Arguments":{"m_ObjectArgument":34,"m_ObjectArgumentAssemblyTypeName":"","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":false},"m_CallState":"RuntimeOnly"}]},"$type":"UnityEngine.Events.UnityEvent"},"typeHandle":{"Identification":"UnityEngine.Events.UnityEvent,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 3287853461926612794}
+    - {fileID: 9040178365933570869}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 9040178365933570869}
+    - {fileID: 5241953835524403554}
+    - {fileID: 9040178365933570869}
+    - {fileID: 9040178365933570869}
+    - {fileID: 9040178365933570869}
+    - {fileID: 0}
+    - {fileID: 9040178365933570869}
+    - {fileID: 0}
+    - {fileID: 9040178365933570869}
+    - {fileID: 0}
+    - {fileID: 9040178365933570869}
+    - {fileID: 0}
+    - {fileID: 9040178365933570869}
+    - {fileID: 0}
+    - {fileID: 9040178365933570869}
+    - {fileID: 0}
+    - {fileID: 9040178365933570869}
+    - {fileID: 0}
+    - {fileID: 9040178365933570869}
+    - {fileID: 0}
+    - {fileID: 9040178365933570869}
+    - {fileID: 0}
+    - {fileID: 9040178365933570869}
+    - {fileID: 0}
+    - {fileID: 9040178365933570869}
+    - {fileID: 9040178365933570869}
+    - {fileID: 9040178365933570869}
+    - {fileID: 0}
+    - {fileID: 9040178365933570869}
+    - {fileID: 9040178365933570869}
     - {fileID: 9040178365933570869}
 --- !u!114 &2056115931445194838
 MonoBehaviour:
@@ -402,6 +467,12 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 459468535377237551, guid: 578a149744ca3c3438414ce4f3d51c97, type: 2}
     value: {fileID: 2375034283946757120}
+  - key: {fileID: -2043067693880748519, guid: 578a149744ca3c3438414ce4f3d51c97, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -2603013369050080498, guid: 578a149744ca3c3438414ce4f3d51c97, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 4909750697863295539, guid: 578a149744ca3c3438414ce4f3d51c97, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &5024292077894428701
@@ -419,6 +490,7 @@ MonoBehaviour:
   m_Events:
     m_Signals:
     - {fileID: 11400000, guid: 4ced11fc807f07f44a53ef425866fb6e, type: 2}
+    - {fileID: 11400000, guid: 188604d27184c68408b0203a77ab44a8, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -434,3 +506,17 @@ MonoBehaviour:
             m_StringArgument: Pausar
             m_BoolArgument: 0
           m_CallState: 1
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2056115931445194838}
+          m_TargetAssemblyTypeName: Unity.VisualScripting.ScriptMachine, Unity.VisualScripting.Flow
+          m_MethodName: TriggerUnityEvent
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: OnBoardingFinalizado
+            m_BoolArgument: 0
+          m_CallState: 2

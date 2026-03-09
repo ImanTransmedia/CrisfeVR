@@ -3603,6 +3603,17 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1758002730}
   m_SourcePrefab: {fileID: 100100000, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+--- !u!114 &5020197659561649585 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2321305208608391442, guid: 7f85ceddacbd5cd4e9df79a5928a4260, type: 3}
+  m_PrefabInstance: {fileID: 5020197659561649584}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758002726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
 --- !u!1001 &5254163495691575642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3683,6 +3694,50 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[3].value
       value: 
       objectReference: {fileID: 1758002726}
+    - target: {fileID: 5024292077894428701, guid: bf176a38e46cd124d956c0bdf9417813, type: 3}
+      propertyPath: m_Events.m_Events.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5024292077894428701, guid: bf176a38e46cd124d956c0bdf9417813, type: 3}
+      propertyPath: m_Events.m_Signals.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5024292077894428701, guid: bf176a38e46cd124d956c0bdf9417813, type: 3}
+      propertyPath: 'm_Events.m_Signals.Array.data[2]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 783c74a2e85e56d4baf034eb1f13d8de, type: 2}
+    - target: {fileID: 5024292077894428701, guid: bf176a38e46cd124d956c0bdf9417813, type: 3}
+      propertyPath: m_Events.m_Events.Array.data[2].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5024292077894428701, guid: bf176a38e46cd124d956c0bdf9417813, type: 3}
+      propertyPath: m_Events.m_Events.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5024292077894428701, guid: bf176a38e46cd124d956c0bdf9417813, type: 3}
+      propertyPath: m_Events.m_Events.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5020197659561649585}
+    - target: {fileID: 5024292077894428701, guid: bf176a38e46cd124d956c0bdf9417813, type: 3}
+      propertyPath: m_Events.m_Events.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5024292077894428701, guid: bf176a38e46cd124d956c0bdf9417813, type: 3}
+      propertyPath: m_Events.m_Events.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TriggerUnityEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5024292077894428701, guid: bf176a38e46cd124d956c0bdf9417813, type: 3}
+      propertyPath: m_Events.m_Events.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Unity.VisualScripting.ScriptMachine, Unity.VisualScripting.Flow
+      objectReference: {fileID: 0}
+    - target: {fileID: 5024292077894428701, guid: bf176a38e46cd124d956c0bdf9417813, type: 3}
+      propertyPath: m_Events.m_Events.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: FadeOut
+      objectReference: {fileID: 0}
+    - target: {fileID: 5024292077894428701, guid: bf176a38e46cd124d956c0bdf9417813, type: 3}
+      propertyPath: m_Events.m_Events.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8809490545932741828, guid: bf176a38e46cd124d956c0bdf9417813, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Timeline1","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Playables.PlayableDirector,

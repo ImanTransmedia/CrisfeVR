@@ -84,7 +84,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 15.033333333333333
+    m_Start: 16.03333333333333
     m_ClipIn: 0
     m_Asset: {fileID: 3948635290356150956}
     m_Duration: 15.000000000000002
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 2
+    m_Start: 3
     m_ClipIn: 0
     m_Asset: {fileID: -6021972400051041976}
     m_Duration: 12.05
@@ -272,6 +272,23 @@ MonoBehaviour:
   m_Markers:
     m_Objects:
     - {fileID: -6759079802553127614}
+    - {fileID: -269108923853607497}
+--- !u!114 &-269108923853607497
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
+  m_Name: Signal Emitter
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalEmitter
+  m_Time: 2
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: 783c74a2e85e56d4baf034eb1f13d8de, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,7 +335,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 2
+    m_Start: 3
     m_ClipIn: 0
     m_Asset: {fileID: -4810684082294485779}
     m_Duration: 9.192
@@ -387,7 +404,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: 2a narradora_mezcla-esv2-90p-bg-10p
   - m_Version: 1
-    m_Start: 15.033333333333333
+    m_Start: 16.03333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -5059649308135710175}
     m_Duration: 12.072
@@ -510,7 +527,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 846227984765359456}
-    m_Duration: 2
+    m_Duration: 3
     m_TimeScale: 1
     m_ParentTrack: {fileID: 4909750697863295539}
     m_EaseInDuration: 0
